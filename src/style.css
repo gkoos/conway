@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 512px;
+  text-align: center;
+}
+#game {
+  border: 1px solid white;
+  display: block;
+}
+
+#controls {
+  width: 512px;
+}
+
+#controls label {
+  padding-left: 50px;
+}
+
+button {
+  background-color: #000;
+  border: 1px solid white;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0;
+  padding: 2px;
+  width: 100px;
+}

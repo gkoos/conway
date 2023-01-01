@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Conway's Game of Life</h1>
+    </header>
+    <canvas id="game" width="512" height="512"></canvas>
+    <div id="controls">
+      <button id="control">Stop</button>
+      <label
+        >Density: <input type="range" id="density" min="0" max="100" value="50"
+      /></label>
+      <span id="density-value">50</span>
+      <button id="reset">Reset</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
